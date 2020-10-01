@@ -9,6 +9,8 @@ from flask import Flask, g
 from flask_restful import Resource, Api
 
 # Create an instance of Flask
+from test_rest.models.quizzquestion import QuizzQuestion
+
 app = Flask(__name__)
 # Create the API
 api = Api(app)
@@ -32,3 +34,5 @@ class CarlosEsTonto(Resource):
 
 
 api.add_resource(CarlosEsTonto, '/CarlosEsTonto')
+
+
