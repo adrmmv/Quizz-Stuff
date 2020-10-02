@@ -2,6 +2,8 @@
 
 ## BUILD APP
 
+Download docker: https://docs.docker.com/docker-for-windows/install/
+
 ```commandline
 #Download and build dependencies
 docker-compose build
